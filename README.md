@@ -18,4 +18,4 @@ brew upgrade --cask claude-is-thinking
 ## More info
 
 - [GitHub](https://github.com/Exorust/claude-is-thinking)
-- [Website](https://claude-is-thinking.vercel.app)
+- [Website](https://claudeisthinking.com)
