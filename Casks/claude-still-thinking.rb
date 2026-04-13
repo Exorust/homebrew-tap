@@ -8,4 +8,9 @@ cask "claude-still-thinking" do
   homepage "https://claudestillthinking.com"
 
   app "Claude Still Thinking?.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Claude Still Thinking?.app"]
+  end
 end
