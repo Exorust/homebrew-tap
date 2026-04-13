@@ -1,6 +1,6 @@
 cask "claude-still-thinking" do
-  version "1.2.0"
-  sha256 "ec3c493d11ec308291de508d218d29b5c1dd45bd80733fbb44372ea0582133a2"
+  version "1.3.0"
+  sha256 "176d9e1febf6da331ccca7c07034d776fe510a8cce0434742da2ec6df34d7cbe"
 
   url "https://github.com/Exorust/claude-still-thinking/releases/download/v#{version}/Claude-Still-Thinking.dmg"
   name "Claude Still Thinking?"
