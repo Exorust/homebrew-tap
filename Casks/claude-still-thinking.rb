@@ -9,8 +9,9 @@ cask "claude-still-thinking" do
 
   app "Claude Still Thinking?.app"
 
-  caveats <<~EOS
-    This app is not code-signed. If macOS says it's "damaged", run:
-      xattr -cr "/Applications/Claude Still Thinking?.app"
-  EOS
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Claude Still Thinking?.app"],
+                   sudo: false
+  end
 end
